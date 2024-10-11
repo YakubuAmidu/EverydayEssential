@@ -182,8 +182,10 @@ body {
 
 #feature .fe-box:nth-child(5) h6 {
   background-color: #adbce6;
+  color: #fff;
 }
 
 #feature .fe-box:nth-child(6) h6 {
   background-color: #d4b37f;
+  color: #fff;
 }
