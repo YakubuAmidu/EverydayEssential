@@ -439,7 +439,12 @@ body {
   color: #ffbd27;
 }
 
-#newsletter p input {
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
+
+#newsletter input {
   height: 3.125rem;
   padding: 0px 1.25rem;
   font-size: 14px;
@@ -447,4 +452,12 @@ body {
   border: 1px solid transparent;
   border-radius: 14px;
   outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
 }
