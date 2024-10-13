@@ -342,6 +342,10 @@ body {
   padding: 30px;
 }
 
+#sm-banner .banner-box2 {
+  background-image: url(./img/banner/b10.jpg);
+}
+
 #sm-banner .banner-box h4 {
   color: #fff;
   font-size: 20px;
@@ -359,4 +363,9 @@ body {
   font-size: 14px;
   font-weight: 500;
   padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+  background-color: #088178;
+  border: 1px solid #088178;
 }
