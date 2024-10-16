@@ -633,3 +633,22 @@ footer .copyright {
     width: 70%;
   }
 }
+
+@media (max-width: 477px) {
+  #header {
+    padding: 10px 30px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  #hero {
+    padding: 0px 20px;
+    background-position: 55%;
+  }
+}
